@@ -1,0 +1,708 @@
+@media (max-width: 575.98px) {
+
+    /* =========== common css start ========= */
+    .sec_top_shape {
+        height: 40px;
+    }
+
+    .sec_btm_shape {
+        height: 40px;
+    }
+
+    .common_heading {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .common_pera {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .header_top .common_pera {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    /* =========== common css end ========= */
+
+    /* =========== menu css end ========= */
+    .main_menu {
+        padding: 15px 0;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+    }
+
+    .navbar-toggler {
+        border-color: #fff !important;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        background: black;
+        margin-top: 10px;
+    }
+
+    .main_menu .navbar-nav .nav-link {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .main_menu .navbar-nav .nav-link::after {
+        bottom: 0;
+    }
+
+    /* =========== menu css end =========== */
+
+    /* =========== banner css start =========== */
+    #banner_part .banner {
+        padding-top: 140px;
+        padding-bottom: 85px;
+    }
+
+    #banner_part .banner .banner_content h2 {
+        font-size: 24px;
+    }
+
+    #banner_part .banner .banner_content h1 {
+        font-size: 40px;
+        line-height: 18px;
+    }
+
+    #banner_part .banner .banner_content p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #banner_part .banner .banner_btn a {
+        font-size: 14px;
+        margin: 0 5px;
+        padding: 7px 20px;
+    }
+
+    #banner_part .banner_slider .left {
+        display: none !important;
+    }
+
+    #banner_part .banner_slider .right {
+        display: none !important;
+    }
+
+    /* =========== banner css end =========== */
+
+    /* =========== about css start =========== */
+
+    #about_part .item {
+        padding: 18px;
+        margin: 10px 0;
+        text-align: center !important;
+        filter: drop-shadow(0px 0px 3px #000);
+    }
+    #about_part .round {
+        width: 296px;
+        height: 296px;
+        margin: auto;
+        border-color: var(--brand);
+    }
+    #about_part .item_top::before {
+        display: none;
+    }
+
+    #about_part .item_top::after {
+        display: none;
+    }
+
+    #about_part .item_mid_left::before {
+        display: none;
+    }
+
+    #about_part .item_mid_left::after {
+        display: none;
+    }
+
+    #about_part .item_mid_right::before {
+        display: none;
+    }
+    
+    #about_part .item_mid_right::after {
+        display: none;
+    }
+
+    #about_part .item_btm::before {
+        display: none;
+    }
+    #about_part .item_btm::after {
+        display: none;
+    }
+
+    /* =========== about css end =========== */
+    
+    /* =========== portfolio css start =========== */
+    #portfolio_part {
+        padding: 50px 0;
+    }
+    /* =========== portfolio css end =========== */
+
+    /* =========== testimonial css start =========== */
+    #testimonial_part .details {
+        padding: 30px 20px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    #testimonial_part .details::before {
+        content: '';
+        position: absolute;
+        top: -28px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #eee;
+    }
+    /* =========== testimonial css end =========== */
+
+    /* =========== pricing css start =========== */
+    #pricing_part .item h3 {
+        font-size: 18px;
+    }
+
+    #pricing_part .item .price h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    #pricing_part .item a {
+        font-size: 14px;
+    }
+    /* =========== pricing css end =========== */
+    
+    /* =========== counter css start =========== */
+    #counter_part {
+        padding: 60px 0;
+    }
+    #counter_part .counter_main {
+        transform: none;
+    }
+    
+    #counter_part .counter_main .item {
+        margin: auto;
+        margin-bottom: 20px;
+        transform: skew(350deg)rotate(355.7deg);
+    }
+    #counter_part .counter_main .item h2 {
+        font-size: 25px;
+    }
+    #counter_part .counter_main .item h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* =========== counter css end =========== */
+
+    /* =========== team css start =========== */
+    #team_part .team{
+        margin: 10px 0;
+    }
+    #team_part .team .images .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(254, 199, 0, 0.3);
+    }
+    #team_part .team .icon {
+        margin-top: 0px;
+        opacity: 1;
+    }
+    /* =========== team css end =========== */
+    
+
+    /* =========== partner css start =========== */
+    #partner_part {
+        padding: 60px 0;
+    }
+    #partner_part .partner_main .item {
+        margin: 10px auto;
+    }
+    #partner_part .partner_main {
+        transform: none;
+    }
+
+    #partner_part .partner_main .item {
+        transform: skew(350deg)rotate(355.7deg);
+    }
+
+    /* =========== partner css end =========== */
+    
+    /* =========== footer css start =========== */
+    #footer_part .footer_logo {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    #footer_part .border_right {
+        margin-bottom: 30px;
+        border-right: 0px;
+    }
+    /* =========== footer css end =========== */
+
+    /* ========== back to top btn =========== */
+    .back_to_top {
+        right: 12px;
+        width: 30px;
+    }
+
+
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =========== common css start ========= */
+    .sec_top_shape {
+        height: 40px;
+    }
+
+    .sec_btm_shape {
+        height: 40px;
+    }
+
+    .common_heading {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .common_pera {
+        font-size: 14px;
+    }
+
+    .header_top .common_pera {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    /* =========== common css end ========= */
+
+    /* =========== menu css end ========= */
+    .main_menu {
+        padding: 15px 0;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        border-color: #fff !important;
+    }
+
+    .navbar-toggler i {
+        color: #fff;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-nav {
+        background: black;
+        margin-top: 10px;
+    }
+
+    .main_menu .navbar-nav .nav-link {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .main_menu .navbar-nav .nav-link::after {
+        bottom: 0;
+    }
+
+    /* =========== menu css end =========== */
+
+    /* =========== banner css start =========== */
+    #banner_part .banner {
+        padding-top: 140px;
+        padding-bottom: 85px;
+    }
+
+    #banner_part .banner .banner_content h2 {
+        font-size: 30px;
+    }
+
+    #banner_part .banner .banner_content h1 {
+        font-size: 45px;
+        line-height: 24px;
+    }
+
+    #banner_part .banner .banner_content p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #banner_part .banner .banner_btn a {
+        font-size: 14px;
+        margin: 0 5px;
+        padding: 7px 20px;
+    }
+
+    #banner_part .banner_slider .left {
+        display: none !important;
+    }
+
+    #banner_part .banner_slider .right {
+        display: none !important;
+    }
+
+    /* =========== banner css end =========== */
+
+    /* =========== about css start =========== */
+
+    #about_part .item {
+        padding: 18px;
+        margin: 10px 0;
+        text-align: center !important;
+        filter: drop-shadow(0px 0px 3px #000);
+    }
+    #about_part .round {
+        width: 296px;
+        height: 296px;
+        margin: auto;
+        border-color: var(--brand);
+    }
+    #about_part .item_top::before {
+        display: none;
+    }
+
+    #about_part .item_top::after {
+        display: none;
+    }
+
+    #about_part .item_mid_left::before {
+        display: none;
+    }
+
+    #about_part .item_mid_left::after {
+        display: none;
+    }
+
+    #about_part .item_mid_right::before {
+        display: none;
+    }
+    
+    #about_part .item_mid_right::after {
+        display: none;
+    }
+
+    #about_part .item_btm::before {
+        display: none;
+    }
+    #about_part .item_btm::after {
+        display: none;
+    }
+
+    /* =========== about css end =========== */
+    
+    /* =========== portfolio css start =========== */
+    #portfolio_part {
+        padding: 50px 0;
+    }
+    /* =========== portfolio css end =========== */
+
+    /* =========== testimonial css start =========== */
+    #testimonial_part .details {
+        padding: 30px 20px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    #testimonial_part .details::before {
+        content: '';
+        position: absolute;
+        top: -28px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #eee;
+    }
+    /* =========== testimonial css end =========== */
+
+    /* =========== pricing css start =========== */
+    #pricing_part .item h3 {
+        font-size: 18px;
+    }
+
+    #pricing_part .item .price h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    #pricing_part .item a {
+        font-size: 14px;
+    }
+    /* =========== pricing css end =========== */
+    
+    /* =========== counter css start =========== */
+    #counter_part {
+        padding: 60px 0;
+    }
+    #counter_part .counter_main {
+        transform: none;
+    }
+    
+    #counter_part .counter_main .item {
+        margin: auto;
+        margin-bottom: 20px;
+        transform: skew(350deg)rotate(355.7deg);
+    }
+    #counter_part .counter_main .item h2 {
+        font-size: 25px;
+    }
+    #counter_part .counter_main .item h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* =========== counter css end =========== */
+
+    /* =========== team css start =========== */
+    #team_part .team{
+        margin: 10px 0;
+    }
+    #team_part .team .images .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(254, 199, 0, 0.3);
+    }
+    #team_part .team .icon {
+        margin-top: 0px;
+        opacity: 1;
+    }
+    /* =========== team css end =========== */
+    
+
+    /* =========== partner css start =========== */
+    #partner_part {
+        padding: 60px 0;
+    }
+    #partner_part .partner_main .item {
+        margin: 10px auto;
+    }
+    #partner_part .partner_main {
+        transform: none;
+    }
+
+    #partner_part .partner_main .item {
+        transform: skew(350deg)rotate(355.7deg);
+    }
+
+    /* =========== partner css end =========== */
+    
+    /* =========== footer css start =========== */
+    #footer_part .footer_logo {
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+    #footer_part .border_right {
+        margin-bottom: 30px;
+    }
+    #footer_part .border_right:nth-of-type(2){
+        border-right: 0;
+    }
+    #footer_part .item h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* =========== footer css end =========== */
+
+    /* ========== back to top btn =========== */
+    .back_to_top {
+        right: 12px;
+        width: 30px;
+    }
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    
+    /* ============= common part css start ============ */
+    .header_top .common_pera {
+        margin-bottom: 40px;
+    }
+    /* ============= common part css end ============ */
+
+    /* ============= menu part css start ============ */
+    .main_menu {
+        padding: 15px 0;
+    }
+    .navbar-brand img{
+        width: 90%;
+    }
+    .main_menu .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-left: 20px;
+        padding: 10px 0;
+    }
+    .main_menu .navbar-nav .nav-link::after {
+        bottom: -20px;
+    }
+    /* ============= menu part css end ============ */
+
+    /* ============= banner part css start ============ */
+    #banner_part .banner {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    #banner_part .banner .banner_content p {
+        margin-bottom: 35px;
+    }
+    /* ============= banner part css end ============ */
+
+    /* ============= about part css start ============ */
+    #about_part .item {
+        padding: 20px;
+    }
+    #about_part .round {
+        width: 215px;
+        height: 215px;
+    }
+    /* ============= about part css end ============ */
+
+    /* ============= service part css start ============ */
+    #service_part .item .details .right {
+        padding: 10px 20px;
+    }
+    /* ============= service part css end ============ */
+
+    /* ============= pricing part css start ============ */
+    #pricing_part .item h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    #pricing_part .item .price h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    #pricing_part .item .price {
+        width: 85px;
+        height: 85px;
+    }
+    #pricing_part .item .feature {
+        padding-top: 70px;
+        padding-bottom: 25px;
+        margin-top: -55px;
+    }
+    #pricing_part .item .feature li {
+        line-height: 30px;
+    }
+    #pricing_part .item a {
+        font-size: 14px;
+    }
+    /* ============= pricing part css end ============ */
+
+    /* ============= counter part css start ============ */
+    #counter_part .counter_main{
+        align-items: center;
+    }
+    #counter_part .counter_main .item {
+        margin: 10px auto;
+    }
+    /* ============= counter part css end ============ */
+
+    /* ============= team part css start ============ */
+    #team_part {
+        padding-bottom: 10px;
+    }
+    #team_part .team {
+        margin: 10px 0;
+    }
+    /* ============= team part css end ============ */
+
+    /* ============= partner part css start ============ */
+    #partner_part .partner_main .item {
+        margin: 10px auto;
+    }
+    /* ============= partner part css end ============ */
+
+    /* ============= footer part css start ============ */
+    #footer_part .item h6 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* ============= footer part css end ============ */
+   
+}
+@media (min-width: 992px) and (max-width:1199.98px){
+
+    /* ============ about part css start ============= */
+    #about_part .round {
+        width: 295px;
+        height: 295px;
+    }
+    /* ============ about part css end ============= */
+    
+    /* ============ testimonial part css start ============= */
+    #testimonial_part .testi_slider .slick-center .img {
+        transform: scale(1.3);
+    }
+    /* ============ testimonial part css end ============= */
+
+    /* ============ counter part css start ============= */
+    #counter_part .counter_main .item {
+        width: 170px;
+    }
+    #counter_part .counter_main .item h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    #counter_part .counter_main .item h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* ============ counter part css end ============= */
+
+    /* ============ team part css start ============= */
+    #team_part .team .images {
+        height: 220px;
+    }
+    #team_part .common_icon {
+        margin: 0;
+    }
+    /* ============ team part css end ============= */
+    
+    /* ============ partner part css start ============= */
+    #partner_part .partner_main .item {
+        width: 170px;
+    }
+    /* ============ partner part css end ============= */
+
+    /* ============ footer part css start ============= */
+    #footer_part .item h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* ============ footer part css end ============= */
+
+    
+}
+@media (min-width: 1400px){
+
+    /* =========== about part css start ========= */
+    #about_part .round {
+        width: 415px;
+        height: 415px;
+    }
+    /* =========== about part css end ========= */
+    
+    /* =========== service part css start ========= */
+    #service_part .item .details {
+        margin: 15px 0;
+    }
+    /* =========== service part css end ========= */
+}
