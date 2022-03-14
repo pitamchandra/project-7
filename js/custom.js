@@ -29,8 +29,10 @@ $(document).ready(function(){
 
     // slider for banner
     $(".banner_slider").slick({
-        speed: 300,
+        speed: 700,
         arrows:true,
+        autoplay:true,
+        autoplaySpeed:2000,
         prevArrow: '<i class="fa-solid fa-circle-arrow-left left"></i>',
         nextArrow: '<i class="fa-solid fa-circle-arrow-right right"></i>',
     });
@@ -39,6 +41,7 @@ $(document).ready(function(){
         vertical:true,
         slidesToShow:3,
         slidesToScroll:1,
+        autoplay:true,
         centerMode:true,
         centerPadding:'0',
         prevArrow: '<i class="fa-solid fa-chevron-up top"></i>',
@@ -56,7 +59,7 @@ $(document).ready(function(){
             {
               breakpoint: 768,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
               }
             },
@@ -65,6 +68,7 @@ $(document).ready(function(){
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                vertical:false,
               }
             }
           ]
@@ -75,18 +79,45 @@ $(document).ready(function(){
         vertical:true,
         slidesToShow:3,
         slidesToScroll:1,
+        autoplay:true,
         centerMode:true,
         centerPadding: '0',
         focusOnSelect:true,
         prevArrow: '<i class="fa-solid fa-chevron-up top"></i>',
         nextArrow: '<i class="fa-solid fa-chevron-down btm"></i>',
         asNavFor:".text_slider",
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              vertical:false,
+            }
+          }
+        ]
     })
 
     //for testimonial image slider
     $('.text_slider').slick({
         slidesToShow:1,
         slidesToScroll:1,
+        autoplay:true,
         arrows:false,
         fade:true,
         asNavFor:".testi_slider",

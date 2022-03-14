@@ -59,7 +59,7 @@ p {
     left: 0;
     bottom: 0;
     z-index: 9;
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0 101%, 100% 101%);
 }
 
 .common_heading {
@@ -675,10 +675,7 @@ p {
 }
 
 #service_part .item:nth-child(even) .details .left {
-    width: 40%;
-    display: flex;
     justify-content: start;
-    align-items: center;
 }
 
 #service_part .item .details .middle {

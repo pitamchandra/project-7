@@ -152,6 +152,66 @@
     }
     /* =========== portfolio css end =========== */
 
+    /* =========== service part css start ==========  */
+    #service_part .service_slider{
+        margin: 10px 0;
+    }
+    #service_part .service_slider::after {
+        display: none;
+    }
+    #service_part .item:nth-child(even) .details {
+        flex-direction: column;
+    }
+    #service_part .item .details {
+        flex-direction: column;
+    }
+    #service_part .item .details .left {
+        width: 100%;
+        justify-content: center;
+    }
+    #service_part .item:nth-child(even) .details .left {
+        justify-content: center;
+    }
+    #service_part .item .details .middle {
+        width: 100%;
+    }
+    #service_part .service_slider .slick-center .details .middle .round {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+    #service_part .item .details .right {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    #service_part .item .details .right::before {
+       display: none;
+    }
+    #service_part .service_slider .top {
+        left: 0;
+        bottom: auto;
+        z-index: 99;
+        top: 54px;
+        color: var(--brand);
+        transform: rotate(-90deg);
+    }
+    #service_part .service_slider .top:hover{
+        color: #000;
+    }
+    #service_part .service_slider .btm {
+        left: auto;
+        top: 55px;
+        right: 0;
+        color: var(--brand);
+        transform: rotate(-90deg);
+    }
+    #service_part .service_slider .btm:hover{
+        color: #000;
+    }
+    
+    /* =========== service part css end ==========  */
+    
     /* =========== testimonial css start =========== */
     #testimonial_part .details {
         padding: 30px 20px;
@@ -167,6 +227,26 @@
         transform: translateX(-50%);
         border-right: 15px solid transparent;
         border-bottom: 15px solid #eee;
+    }
+    #testimonial_part .testi_slider {
+        margin: 0;
+    }
+    #testimonial_part .testi_slider .top {
+        position: absolute;
+        left: 0%;
+        bottom: auto;
+        transform: translatey(-50%)rotate(-90deg);
+        top: 50%;
+        z-index: 99;
+    }
+    #testimonial_part .testi_slider .btm {
+        left: auto;
+        top: 50%;
+        right: 0;
+        transform: translatey(-50%)rotate(-90deg);
+    }
+    #testimonial_part .testi_slider::after {
+        display: none;
     }
     /* =========== testimonial css end =========== */
 
